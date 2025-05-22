@@ -5,34 +5,29 @@ module.exports = {
   ** Headers of the page
   */
   publicRuntimeConfig: {
-    shop_id: 1, // id sklepu na vishop
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis, ligula sed lacinia mollis, enim turpis suscipit enim, porta viverra tellus risus et augue.", // opis serwera
-    address: "hypixel.net",  // adres serwera
+    shop_id: 19160, // id sklepu na vishop
+    description: "FluviaMC – Survival, OneBlock, SkyGen – trzy światy, jedna przygoda!", // opis serwera
+    address: "fluviamc.pl",  // adres serwera
     primaryColor: "#72A763",  // nie warto zmieniać
     socialMedia: [  // social media serwera
       {
         "name": "Discord",
         "icon": "https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6ca814282eca7172c6_icon_clyde_white_RGB.svg",
-        "link": "#"
+        "link": "dc.fluviamc.pl"
       },
       {
         "name": "TikTok",
         "icon": "https://i.imgur.com/w8CLcAH.png",
-        "link": "#"
-      },
-      {
-        "name": "Facebook",
-        "icon": "https://i.imgur.com/kX2fO4Y.png",
-        "link": "#"
+        "link": "https://www.tiktok.com/@fluviamc"
       }
     ]
   },
   head: {
-    title: 'vepic - szablon VIshop',  // tytuł strony
+    title: 'Fluviamc.pl',  // tytuł strony
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Epicki szablon VIshop.pl' }  // opis strony dla wyszukiwarek i discorda
+      { hid: 'description', name: 'description', content: 'Jedyny serwer minecraft tworzony z pasjii!' }  // opis strony dla wyszukiwarek i discorda
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },  // ikona strony, podmień ją w folderze static
